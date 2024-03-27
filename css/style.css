@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(50, 4, 41, 0.8);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body button{
+    margin: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+label {
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block; /* Para que os labels fiquem em linha */
+    width: 180px; 
+}
+
+input {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    height: 2em;
+    display: inline-block; 
+    width: calc(100% - 200px); 
+    box-sizing: border-box; 
+ 
+}
+label.productAvailability {
+    display: inline-block; 
+    width: auto; 
+    vertical-align: top; 
+    justify-content: space-around;
+  }
+  
+  select#productAvailability {
+    display: inline-block; 
+    margin-top: 20px;
+    }
+
+select {
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    padding: 5px;
+}
+
+button{
+    display: inline-block;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+table {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%; 
+    border-collapse: collapse;
+}
+  
+  th, td {
+    border: 1px solid #dddddd; 
+    padding: 5px; 
+    text-align: left; 
+    width: 250px;
+  }
+  th {
+    background-color: #f2f2f2; 
+  }
